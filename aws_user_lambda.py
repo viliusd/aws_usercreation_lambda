@@ -79,7 +79,7 @@ def lambda_handler(event, context):
             },
             'Body': {
                 'Text': {
-                    'Data': 'User name is : "{0}" \nOne time password is : "{1}"'.format(user_name, password) + '\nLogin link https://esubmissionnonprd.signin.aws.amazon.com/console'
+                    'Data': 'User name is : "{0}" \nOne time password is : "{1}"'.format(user_name, password) + '\nLogin link https://myawsacc.signin.aws.amazon.com/console'
                 }
             }
         }
